@@ -16,5 +16,7 @@ public class DiceGame {
         i++;
         }
         System.out.println("Total value: " + sum);
+                if(sum>=8)System.out.println("You won!");
+        else System.out.println("You lost!");
     }
 }
