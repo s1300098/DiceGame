@@ -1,9 +1,14 @@
 import java.util.Random;
+import java.util.Scanner;
 public class DiceGame {
     DiceGame(){
     }
 
     public static void main(String [] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("What is your name?");
+String name = sc.next();
+System.out.println("Hello."+name+"!");
         System.out.println("Rolling dice...");
         Random r = new Random();
         int sum=0;
