@@ -21,7 +21,7 @@ System.out.println("Hello."+name+"!");
         i++;
         }
         System.out.println("Total value: " + sum);
-                if(sum>=8)System.out.println("You won!");
-        else System.out.println("You lost!");
+                if(sum>=8)System.out.println(name+"won!");
+        else System.out.println(name+"lost!");
     }
 }
